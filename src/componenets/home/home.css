@@ -1,0 +1,43 @@
+.home {
+  flex: 4;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.cardvisa {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.cardvisa span {
+  color: white;
+  padding: 22px;
+}
+
+.cardvisa, .visa {
+  color: lightpink;
+  padding-left: 10px;
+}
+
+.carddown {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.carddown, h4 p {
+  color: white;
+  padding: 10px;
+}
